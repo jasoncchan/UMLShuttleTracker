@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+		<TextView 
+			android:id="@+id/title" 
+			android:text="@string/splash_screen"
+			android:textSize="26sp"
+			android:textColor="#ffff00"
+			android:textStyle="italic"
+			android:typeface="sans"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2" />
+
+		<Button 
+			android:id="@+id/BusLocation" 
+			android:text="@string/busLocation"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:drawableTop="@drawable/buslocation" 
+			android:layout_weight="1" />
+
+		<Button 
+			android:id="@+id/BusSchedule" 
+			android:text="@string/busSchedule"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:drawableTop="@drawable/schedule" 
+			android:layout_weight="1" />
+			
+	   	<Button 
+			android:id="@+id/Setting" 
+			android:text="@string/setting" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:drawableTop="@drawable/system"
+			android:layout_weight="1"/>
+
+		<Button 
+			android:id="@+id/About" 
+			android:text="@string/About"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:drawableTop="@drawable/about"
+			android:layout_weight="1" />
+			
+	</LinearLayout>
+</LinearLayout>

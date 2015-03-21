@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0000aa">
+  
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+      
+		   <TextView
+		 	android:id="@+id/msg"  
+		          android:gravity="center_horizontal|center_vertical"
+		          android:layout_width="fill_parent"
+		          android:layout_height="fill_parent"
+		          android:layout_weight="1"
+		    />   
+		   <TextView
+		 	android:id="@+id/updateValue"  
+				 android:textSize="80sp"
+		          android:gravity="center_horizontal|center_vertical"
+		          android:layout_width="fill_parent"
+		          android:layout_height="fill_parent" 
+		          android:layout_weight="1"
+		    />    
+		    
+    </LinearLayout>
+    
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+    
+		    <SeekBar
+			 android:id="@+id/updateFreqency"
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:layout_margin="30px"		 
+		 	/>  
+
+ </LinearLayout> 
+</LinearLayout>

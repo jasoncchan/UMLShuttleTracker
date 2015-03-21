@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">UML Shuttle Bus App</string>
+    <string name="app_name">UML Bus App</string>
+    <string name="splash_screen">UML Shuttle Bus Tracker</string>
+    <string name="welcome">UML Shuttle Bus Mobile App</string>
+    <string name="myLocation">My Location</string>
+    <string name="busLocation">Live Bus Location</string>
+    <string name="busSchedule">Bus Schedule</string>
+    <string name="setting">Setting</string>
+    
+    <string name="map_key">0AcTjFgTKzyWfLS74JrOeZE9w7fAHc6m0ti2dug</string>
+    
+    <string-array name="busStops_array">
+    	<!--  name, xCoord, yCoord -->
+        <item>University Ave. Stop; 42.653556; -71.326495  </item>
+        <item>Fox Hall Stop; 42.652291; -71.320946</item>
+        <item>Broadway Stop; 42.6408806; -71.3375437</item>
+        <item>Campus Rec Stop; 42.651905; -71.318199</item>
+        <item>South Dining Hall Stop; 42.641827; -71.333981</item>
+    </string-array>
+    
+    <string-array name="mainMenu_array">
+        <item>Live Bus Location</item>
+        <item>Bus Schedule</item>
+        <item>Settings</item>
+        <item>About</item>
+    </string-array>
+    <string name="About">About</string>
+    
+    
+</resources>
